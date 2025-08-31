@@ -28,6 +28,7 @@ Table of Contents
 - Frontend Flow
 - Project Structure
 - Troubleshooting
+- Screenshot
 - Notes & Tips
 - Acknowledgements
 
@@ -128,6 +129,10 @@ Troubleshooting
   - The server will return a fallback SVG (with `fallback: true`). This usually indicates a temporary model issue or an unsupported request.
 - Port already in use:
   - Set a custom `PORT` in `.env` (e.g., `PORT=4000`).
+ 
+Screenshot
+------------
+![weather-banana logo](/website.png)
 
 Notes & Tips
 ------------
