@@ -138,3 +138,10 @@ Acknowledgements
 ----------------
 - Weather data: [Open‑Meteo](https://open-meteo.com/)
 - Image generation: Google Gemini (Image Preview)
+
+DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+No Warranty: This software is provided "as is" and "as available" without any warranties of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The authors and contributors make no representations or warranties about the accuracy, reliability, completeness, or timeliness of this software.
+Limitation of Liability: In no event shall the authors, contributors, or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software. This includes, but is not limited to: direct, indirect, incidental, special, consequential, or punitive damages; loss of profits, revenue, data, or use; business interruption; or any other commercial damages or losses, even if advised of the possibility of such damages.
+Use at Your Own Risk: You acknowledge that you use this software at your own risk and discretion. You are solely responsible for any damage to your computer system or loss of data that results from the use of this software.
+No Support Obligation: The authors and contributors are under no obligation to provide support, updates, enhancements, or modifications to this software.
+By using, copying, modifying, or distributing this software, you acknowledge that you have read this disclaimer and agree to be bound by its terms.
