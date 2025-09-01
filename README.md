@@ -12,12 +12,12 @@ AI weather image generator using Node.js, Open-Meteo, Gemini (Nano Banana, Gemin
 Overview
 --------
 weather-banana is a tiny full-stack app that:
-- Searches a local 146k+ city database (`cities500.json`) in the browser.
+- Searches a local 146k+ cities database (`cities500.json`) in the browser.
 - Fetches real-time weather for the chosen city from Open‑Meteo (hourly, timezone‑aware).
 - Builds a concise, realistic prompt from weather conditions and local time.
 - Generates an AI image via Google Gemini, saving the file on the server and returning a public URL.
 
-The result is a quick way to visualize “the mood of the weather” for any city right now.
+The result is a quick way to visualize “the mood of the weather” for 146k cities right now.
 
 Table of Contents
 -----------------
@@ -68,7 +68,7 @@ Scripts
 API Endpoints
 -------------
 - `GET /cities500.json`
-  - Streams the city database from the project root.
+  - Streams the cities database from the project root.
   - Returns 404 if the file is missing.
 
 - `GET /api/env-check`
@@ -116,7 +116,7 @@ Project Structure
 - `public/index.html`: Minimal UI.
 - `public/app.js`: Client logic (city search, Open‑Meteo request, API calls).
 - `public/styles.css`: Styling (including animated “elements” background).
-- `cities500.json`: City database (served from root).
+- `cities500.json`: cities database (served from root).
 - `examples/`: Sample output images (for reference).
 
 Troubleshooting
@@ -124,7 +124,7 @@ Troubleshooting
 - Missing API key:
   - Ensure `.env` exists and contains `GOOGLE_API_KEY`.
   - Check `GET /api/env-check` and `GET /api/env-diagnose` to confirm the server can read your `.env` (values are masked in responses).
-- Missing city database:
+- Missing cities database:
   - If `GET /cities500.json` returns 404, place `cities500.json` in project root.
 - No image returned from Gemini:
   - The server will return a fallback SVG (with `fallback: true`). This usually indicates a temporary model issue or an unsupported request.
