@@ -2,7 +2,7 @@
 Frontend Preview
 
 # weather-banana
-AI weather image generator using Node.js, Open-Meteo, Gemini (Nano Banana, Gemini 2.5 Image Preview) &amp; 180k+ city database. City search uses JSON DB with coordinates for Open-Meteo API calls. Real-time weather data including local time generates realistic prompts for AI image generation based on city and current conditions.
+AI weather image generator using Node.js, Open-Meteo, Gemini (Nano Banana, Gemini 2.5 Image Preview) &amp; 146k+ world cities database. City search uses JSON DB with coordinates for Open-Meteo API calls. Real-time weather data including local time generates realistic prompts for AI image generation based on city and current conditions.
 
 ![Node](https://img.shields.io/badge/Node-%E2%89%A5%2018-339933?logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express&logoColor=white)
@@ -12,7 +12,7 @@ AI weather image generator using Node.js, Open-Meteo, Gemini (Nano Banana, Gemin
 Overview
 --------
 weather-banana is a tiny full-stack app that:
-- Searches a local 180k+ city database (`cities500.json`) in the browser.
+- Searches a local 146k+ city database (`cities500.json`) in the browser.
 - Fetches real-time weather for the chosen city from Open‑Meteo (hourly, timezone‑aware).
 - Builds a concise, realistic prompt from weather conditions and local time.
 - Generates an AI image via Google Gemini, saving the file on the server and returning a public URL.
@@ -139,7 +139,7 @@ Notes & Tips
 
 Acknowledgements
 ----------------
-- City Database [lmfmaier / cities-json](https://github.com/lmfmaier/cities-json)
+- World cities database: [lmfmaier / cities-json](https://github.com/lmfmaier/cities-json)
 - Weather data: [Open‑Meteo](https://open-meteo.com/)
 - Image generation: [Nano Banana, Gemini 2.5 Image Preview](https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/)
 
