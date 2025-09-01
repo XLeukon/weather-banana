@@ -1,5 +1,5 @@
 ![weather-banana design](/website.png)
-Nano Banana - Gemini 2.5 Flash Image Preview
+Frontend Preview
 
 # weather-banana
 AI weather image generator using Node.js, Open-Meteo, Gemini (Nano Banana, Gemini 2.5 Image Preview) &amp; 180k+ city database. City search uses JSON DB with coordinates for Open-Meteo API calls. Real-time weather data including local time generates realistic prompts for AI image generation based on city and current conditions.
@@ -30,6 +30,8 @@ Table of Contents
 - Troubleshooting
 - Notes & Tips
 - Acknowledgements
+- DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+- License
 
 Getting Started
 ---------------
@@ -137,12 +139,42 @@ Notes & Tips
 
 Acknowledgements
 ----------------
+- City Database [lmfmaier / cities-json](https://github.com/lmfmaier/cities-json)
 - Weather data: [Open‑Meteo](https://open-meteo.com/)
-- Image generation: Google Gemini (Image Preview)
+- Image generation: [Nano Banana, Gemini 2.5 Image Preview](https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/)
 
 DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+----------------
 No Warranty: This software is provided "as is" and "as available" without any warranties of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The authors and contributors make no representations or warranties about the accuracy, reliability, completeness, or timeliness of this software.
 Limitation of Liability: In no event shall the authors, contributors, or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software. This includes, but is not limited to: direct, indirect, incidental, special, consequential, or punitive damages; loss of profits, revenue, data, or use; business interruption; or any other commercial damages or losses, even if advised of the possibility of such damages.
 Use at Your Own Risk: You acknowledge that you use this software at your own risk and discretion. You are solely responsible for any damage to your computer system or loss of data that results from the use of this software.
 No Support Obligation: The authors and contributors are under no obligation to provide support, updates, enhancements, or modifications to this software.
 By using, copying, modifying, or distributing this software, you acknowledge that you have read this disclaimer and agree to be bound by its terms.
+
+License
+----------------
+This work is licensed under a MIT License
+
+MIT License
+
+Copyright (c) 2025 XLeukon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
