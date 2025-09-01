@@ -2,7 +2,7 @@
 Nano Banana - Gemini 2.5 Flash Image Preview
 
 # weather-banana
-Weather image project using Node.js, Open-Meteo, Gemini (Nano Banana, Gemini 2.5 Image Preview) &amp; 180k+ city database. City search uses JSON DB with coordinates for Open-Meteo API calls. Real-time weather data including local time generates realistic prompts for AI image generation based on city and current conditions.
+AI weather image generator powered by Node.js, Open-Meteo, Gemini (Nano Banana, Gemini 2.5 Image Preview) &amp; 180k+ city database. City search uses JSON DB with coordinates for Open-Meteo API calls. Real-time weather data including local time generates realistic prompts for AI image generation based on city and current conditions.
 
 ![Node](https://img.shields.io/badge/Node-%E2%89%A5%2018-339933?logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express&logoColor=white)
